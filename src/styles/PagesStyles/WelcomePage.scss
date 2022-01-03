@@ -1,0 +1,30 @@
+.welcome_page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: calc(100% - 90px);
+
+	h1 {
+		padding: 0 300px;
+		font-family: Montserrat;
+		font-weight: bold;
+		font-size: 45px;
+		line-height: 60px;
+		text-align: center;
+		color: #fff;
+
+		span {
+			border-radius: 10px;
+			background: $text-background-color;
+			padding: 5px 10px;
+		}
+	}
+
+	p {
+		bottom: 10px;
+		font-family: Montserrat;
+		font-weight: 500;
+		font-size: 14px;
+		position: absolute;
+	}
+}

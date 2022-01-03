@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$text-background-color: rgba(121, 83, 224, 0.6);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+	.app_wrap {
+		overflow: hidden;
+		position: relative;
+		height: 100vh;
+
+		.app_bg_img {
+			opacity: 0.6;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+		}
+
+		.app_content {
+			background-color: #0d091a;
+			height: 100%;
+
+			.content {
+				position: relative;
+				height: 100%;
+				color: #fff;
+
+				.pages {
+					height: calc(100% - 80px);
+				}
+			}
+		}
+	}
+}
+
+// Components Styles
+@import './styles/ComponentsStyles/Navbar.scss';
+
+// Pages
+@import './styles/PagesStyles/WelcomePage.scss';
