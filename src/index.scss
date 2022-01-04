@@ -35,7 +35,7 @@ $text-background-color: rgba(121, 83, 224, 0.6);
 				color: #fff;
 
 				.pages {
-					height: calc(100% - 80px);
+					height: 100%;
 				}
 			}
 		}
@@ -43,7 +43,6 @@ $text-background-color: rgba(121, 83, 224, 0.6);
 }
 
 // Components Styles
-@import './styles/ComponentsStyles/Navbar.scss';
 
 // Pages
 @import './styles/PagesStyles/WelcomePage.scss';
