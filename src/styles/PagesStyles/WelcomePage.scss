@@ -37,7 +37,8 @@
 
 			span {
 				border-radius: 10px;
-				background: $text-background-color;
+				text-shadow: 2px 2px 25px $text-background-color;
+				// background: $text-background-color;
 				padding: 5px 10px;
 			}
 		}
