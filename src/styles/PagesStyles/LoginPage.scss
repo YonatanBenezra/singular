@@ -1,4 +1,4 @@
-.welcome_page {
+.login_page {
 	height: 100%;
 	position: relative;
 
@@ -21,35 +21,14 @@
 		}
 	}
 
-	.welcome_page_content {
+	.login_page_content {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		height: calc(100% - 200px);
-
-		h1 {
-			padding: 0 300px;
-			font-family: Montserrat;
-			font-weight: bold;
-			font-size: 45px;
-			line-height: 60px;
-			text-align: center;
-			color: #fff;
-
-			span {
-				border-radius: 10px;
-				text-shadow: 2px 2px 25px $text-background-color;
-				// background: $text-background-color;
-				padding: 5px 10px;
-			}
-		}
-
-		p {
-			bottom: 10px;
-			font-family: Montserrat;
-			font-weight: 500;
-			font-size: 14px;
-			position: absolute;
+		.login_form {
+			display: flex;
+			flex-direction: column;
 		}
 	}
 

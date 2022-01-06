@@ -1,8 +1,12 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+
 import SingularLogo from '../assets/SingularLogo.png'
 import WelcomePageBall from '../assets/WelcomePageBall.png'
 
-const WelcomePage = () => {
+import { GradientButton, LoginInput } from '../components/UI'
+
+const LoginPage = () => {
 	const ballVariants = {
 		visible: {
 			rotate: 360,
@@ -28,34 +32,25 @@ const WelcomePage = () => {
 		},
 	}
 
-	const textVariants = {
-		hidden: {
-			y: -1000,
-		},
-
-		visible: {
-			y: 0,
-
-			transition: {
-				type: 'spring',
-				stiffness: 70,
-				delay: 1,
-			},
-		},
-	}
-
 	return (
-		<div className="welcome_page">
+		<div className="login_page">
 			<div className="navbar">
-				<div className="text">LOG IN</div>
+				<Link to="/login" className="text">
+					LOG IN
+				</Link>
 			</div>
 
-			<div className="welcome_page_content">
-				<motion.h1 variants={textVariants} initial="hidden" animate="visible">
-					WELCOME BACK! WE ARE GLAD TO SEE YOU :) <span>SIGN IN</span> TO START
-				</motion.h1>
+			<div className="login_page_content">
+				<div className="login_form">
+					<LoginInput type="text" placeholder="FULL NAME" />
+					<LoginInput type="text" placeholder="DATE OF BIRTH" />
+					<LoginInput type="text" placeholder="GENDER" />
+					<LoginInput type="text" placeholder="ADDRESS" />
 
-				<p>© 2022 | Singgular.io | All rights reserved | Let's talk- Info@singgular.io</p>
+					<Link to="/create-password">
+						<GradientButton text="NEXT" width="40vw" />
+					</Link>
+				</div>
 			</div>
 
 			<div className="top_spinning_logo">
@@ -71,4 +66,4 @@ const WelcomePage = () => {
 	)
 }
 
-export default WelcomePage
+export default LoginPage

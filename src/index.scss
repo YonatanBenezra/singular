@@ -43,6 +43,8 @@ $text-background-color: rgba(121, 83, 224, 0.8);
 }
 
 // Components Styles
+@import './styles/Components/UI/index.scss';
 
 // Pages
 @import './styles/PagesStyles/WelcomePage.scss';
+@import './styles/PagesStyles/LoginPage.scss';

@@ -1,7 +1,8 @@
 import BackgroundImage from './assets/background-image.svg'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import WelcomePage from './pages'
+import WelcomePage from './containers/WelcomePage'
 import { AnimatePresence } from 'framer-motion'
+import LoginPage from './containers/LoginPage'
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 								<div className="pages">
 									<Routes>
 										<Route path="" element={<WelcomePage />} />
+										<Route path="/login" element={<LoginPage />} />
 									</Routes>
 								</div>
 							</div>

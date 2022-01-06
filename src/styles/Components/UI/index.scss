@@ -1,0 +1,26 @@
+.login_input {
+	width: 40vw;
+	height: 50px;
+	background: transparent;
+	border: 2px solid #7953e0;
+	border-radius: 50px;
+	margin: 10px;
+	padding: 0 20px;
+	font-weight: bold;
+	font-size: 18px;
+	outline: none;
+	color: rgba(129, 129, 129, 0.5);
+}
+
+.gradient_button {
+	height: 50px;
+	border-radius: 31.5px;
+	background: linear-gradient(#525faa 0%, #2ca5a6 100%);
+	margin: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
