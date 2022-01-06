@@ -1,8 +1,11 @@
-import BackgroundImage from './assets/background-image.svg'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import WelcomePage from './containers/WelcomePage'
 import { AnimatePresence } from 'framer-motion'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+import BackgroundImage from './assets/background-image.svg'
+
+import WelcomePage from './containers/WelcomePage'
 import LoginPage from './containers/LoginPage'
+import CreatePasswordPage from './containers/CreatePasswordPage'
 
 function App() {
 	return (
@@ -20,6 +23,7 @@ function App() {
 									<Routes>
 										<Route path="" element={<WelcomePage />} />
 										<Route path="/login" element={<LoginPage />} />
+										<Route path="/create-password" element={<CreatePasswordPage />} />
 									</Routes>
 								</div>
 							</div>
