@@ -6,6 +6,7 @@ import BackgroundImage from './assets/background-image.svg'
 import WelcomePage from './containers/WelcomePage'
 import LoginPage from './containers/LoginPage'
 import CreatePasswordPage from './containers/CreatePasswordPage'
+import HomePage from './containers/HomePage'
 
 function App() {
 	return (
@@ -21,9 +22,10 @@ function App() {
 							<div className="content">
 								<div className="pages">
 									<Routes>
-										<Route path="" element={<WelcomePage />} />
+										<Route path="/welcome" element={<WelcomePage />} />
 										<Route path="/login" element={<LoginPage />} />
 										<Route path="/create-password" element={<CreatePasswordPage />} />
+										<Route path="/" element={<HomePage />} />
 									</Routes>
 								</div>
 							</div>
