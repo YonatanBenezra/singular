@@ -56,6 +56,31 @@
 			font-size: 14px;
 			position: absolute;
 		}
+
+		.play_button {
+			width: 200px;
+			height: 50px;
+			border-radius: 35.5px;
+			border: none;
+			outline: none;
+			background: linear-gradient(#525faa 0%, #2ca5a6 100%);
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 36px;
+			color: #fff;
+			cursor: pointer;
+			margin-top: 15px;
+			position: relative;
+			padding-left: 30px;
+
+			img {
+				width: 50px;
+				height: 50px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
 	}
 
 	.top_spinning_logo {
