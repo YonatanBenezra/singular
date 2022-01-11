@@ -8,6 +8,8 @@ import LoginPage from './containers/LoginPage'
 import CreatePasswordPage from './containers/CreatePasswordPage'
 import HomePage from './containers/HomePage'
 
+import Rules from './containers/LogicalPuzzle/Rules'
+
 function App() {
 	return (
 		<AnimatePresence exitBeforeEnter>
@@ -26,6 +28,7 @@ function App() {
 										<Route path="/login" element={<LoginPage />} />
 										<Route path="/create-password" element={<CreatePasswordPage />} />
 										<Route path="/" element={<HomePage />} />
+										<Route path="/logical-puzzle/rules" element={<Rules />} />
 									</Routes>
 								</div>
 							</div>

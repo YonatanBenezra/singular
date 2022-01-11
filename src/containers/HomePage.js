@@ -86,10 +86,12 @@ const HomePage = () => {
 					Take a minute to play them freely
 				</motion.h2>
 
-				<motion.button variants={fadeFromLeft} className="play_button" initial="hidden" animate="visible">
-					<motion.img variants={ballVariants} src={WelcomePageBall} alt="WelcomePageBall" />
-					LET'S GO!
-				</motion.button>
+				<Link to="/logical-puzzle/rules">
+					<motion.button variants={fadeFromLeft} className="play_button" initial="hidden" animate="visible">
+						<motion.img variants={ballVariants} src={WelcomePageBall} alt="WelcomePageBall" />
+						LET'S GO!
+					</motion.button>
+				</Link>
 
 				<p>© 2022 | Singgular.io | All rights reserved | Let's talk- Info@singgular.io</p>
 			</div>

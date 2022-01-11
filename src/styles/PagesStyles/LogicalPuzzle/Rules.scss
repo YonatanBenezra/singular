@@ -1,0 +1,67 @@
+.rules_page {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.rules_page_content {
+		width: 60%;
+		height: 90%;
+
+		padding: 20px;
+		text-align: center;
+		position: relative;
+
+		h6 {
+			font-weight: 600;
+			font-size: 19px;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+
+		.rules_ball_row {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin: 20px;
+
+			.ball_image {
+				width: 90px;
+				height: 90px;
+
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			.dots {
+				letter-spacing: 4px;
+			}
+
+			.rule {
+				font-size: 16px;
+				font-weight: 500;
+			}
+		}
+
+		.play_button {
+			position: absolute;
+			bottom: 0;
+			left: calc(50% - 75px);
+
+			button {
+				width: 150px;
+				height: 40px;
+				background: transparent;
+				border: 3px solid #7953e0;
+				border-radius: 30px;
+				outline: none;
+				color: #fff;
+				cursor: pointer;
+			}
+		}
+	}
+}
