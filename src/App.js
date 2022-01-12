@@ -9,6 +9,7 @@ import CreatePasswordPage from './containers/CreatePasswordPage'
 import HomePage from './containers/HomePage'
 
 import Rules from './containers/LogicalPuzzle/Rules'
+import LogicalPuzzle from './containers/LogicalPuzzle/LogicalPuzzle'
 
 function App() {
 	return (
@@ -29,6 +30,7 @@ function App() {
 										<Route path="/create-password" element={<CreatePasswordPage />} />
 										<Route path="/" element={<HomePage />} />
 										<Route path="/logical-puzzle/rules" element={<Rules />} />
+										<Route path="/logical-puzzle" element={<LogicalPuzzle />} />
 									</Routes>
 								</div>
 							</div>

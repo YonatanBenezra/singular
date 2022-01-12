@@ -1,5 +1,6 @@
 import Ball1 from '../../assets/balls/Ball1.svg'
 import Ball2 from '../../assets/balls/Ball2.svg'
+import { Link } from 'react-router-dom'
 
 const Rules = () => {
 	return (
@@ -38,7 +39,9 @@ const Rules = () => {
 				</div>
 
 				<div className="play_button">
-					<button>Ok Let's play</button>
+					<Link to="/logical-puzzle">
+						<button>Ok Let's play</button>
+					</Link>
 				</div>
 			</div>
 		</div>

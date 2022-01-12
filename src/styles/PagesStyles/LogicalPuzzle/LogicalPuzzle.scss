@@ -1,0 +1,102 @@
+.logical_puzzle {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+
+	.game {
+		width: 60%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+
+		h6 {
+			font-weight: 600;
+			font-size: 19px;
+			text-transform: uppercase;
+		}
+
+		.game_container {
+			width: 100%;
+			height: auto;
+
+			.draggable_balls_row {
+				display: flex;
+				justify-content: center;
+
+				.img_container {
+					margin: 20px;
+					width: 80px;
+					height: 80px;
+					border-radius: 50%;
+					background: rgba(33, 44, 113, 0.3);
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: fill;
+						// cursor: pointer;
+					}
+				}
+			}
+
+			.droppable_balls_row {
+				display: flex;
+				justify-content: space-around;
+				margin: 40px 30px;
+
+				.droppable_balls_placeholder {
+					width: 110px;
+					height: 120px;
+					border-bottom: 8px solid #4fe0b5;
+				}
+			}
+		}
+
+		.button_row {
+			button {
+				width: 150px;
+				height: 40px;
+				background: transparent;
+				border: 3px solid #7953e0;
+				border-radius: 30px;
+				outline: none;
+				color: #fff;
+				cursor: pointer;
+				text-transform: uppercase;
+			}
+
+			button.active {
+				background: linear-gradient(#525faa 0%, #2ca5a6 100%);
+				border: 3px solid #7953e0;
+			}
+		}
+
+		.rules_row {
+			display: flex;
+			justify-content: space-around;
+			width: 100%;
+
+			.single_rule {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+
+				img {
+					width: 30px;
+					height: 30px;
+					object-fit: contain;
+				}
+
+				.text {
+					font-weight: 500;
+					font-size: 18px;
+					padding: 10px;
+				}
+			}
+		}
+	}
+}
