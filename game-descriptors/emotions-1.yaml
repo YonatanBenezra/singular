@@ -1,0 +1,60 @@
+id: 4ec6c558-46d9-440a-98c1-c5a9acad1796
+name: emotions-1
+type: emotions
+videos-count: 5
+videos:
+  - id: video-1
+    location: "URI TBD" # the location of the video file
+    order: 1
+  - id: video-1
+    location: "URI TBD" # the location of the video file
+    order: 1
+  - id: video-1
+    location: "URI TBD" # the location of the video file
+    order: 1
+  - id: video-1
+    location: "URI TBD" # the location of the video file
+    order: 1
+  - id: video-1
+    location: "URI TBD" # the location of the video file
+    order: 1
+emojis-count: 8
+emojis:
+  - id: happy
+    emoition: happy # the emotion the emoji reflects
+    location: "URI TBD" # the location of the emoji image
+    order: 1 # the order (clockwise starting at 12) of the emoji in the carousel
+  - id: happy
+    emoition: happy # the emotion the emoji reflects
+    location: "URI TBD" # the location of the emoji image
+    order: 1 # the order (clockwise starting at 12) of the emoji in the carousel
+  - id: happy
+    emoition: happy # the emotion the emoji reflects
+    location: "URI TBD" # the location of the emoji image
+    order: 1 # the order (clockwise starting at 12) of the emoji in the carousel
+  - id: happy
+    emoition: happy # the emotion the emoji reflects
+    location: "URI TBD" # the location of the emoji image
+    order: 1 # the order (clockwise starting at 12) of the emoji in the carousel
+  - id: happy
+    emoition: happy # the emotion the emoji reflects
+    location: "URI TBD" # the location of the emoji image
+    order: 1 # the order (clockwise starting at 12) of the emoji in the carousel
+  - id: happy
+    emoition: happy # the emotion the emoji reflects
+    location: "URI TBD" # the location of the emoji image
+    order: 1 # the order (clockwise starting at 12) of the emoji in the carousel
+  - id: happy
+    emoition: happy # the emotion the emoji reflects
+    location: "URI TBD" # the location of the emoji image
+    order: 1 # the order (clockwise starting at 12) of the emoji in the carousel
+  - id: happy
+    emoition: happy # the emotion the emoji reflects
+    location: "URI TBD" # the location of the emoji image
+    order: 1 # the order (clockwise starting at 12) of the emoji in the carousel
+elements: # other elements in the game (e.g. buttons, etc.)
+parameters: # the parameters to be attached to user actions for this game
+  - name: video-id # the id of the video associated with the action
+    mandatory: true
+  - name: emoji-id # the id of the emoji associated with the action (if applicable)
+    mandatory: false

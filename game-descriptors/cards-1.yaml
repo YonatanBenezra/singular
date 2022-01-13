@@ -1,0 +1,205 @@
+id: a5b314e5-93cd-462b-84cb-c5ada09bc125
+name: cards-1
+type: cards
+cards-count: 24 # the amount of cards in the deck
+tiles-count: 6 # the maximum amount of tiles to allow for cards placement
+cards:
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    location: "URI TBD" # location of the card image
+    colors: # the 2 dominant colors in the card
+      - green
+      - red
+    type: animal # valid values: animal, human, abstract, landscape, object
+    nature: positive # valid values are positive, negative, neutral
+    order: 1 # the order of the card in the deck
+elements: # other elements in the game (e.g. buttons, etc.)
+  - id: button-done
+parameters: # the parameters to be attached to user actions for this game
+  - name: card-id # the id of the card associated with the action (if applicable)
+    mandatory: false
+  - name: element # the element in the game associated with the action: "tile-<NUMBER>", "button-done" or "deck"
+    mandatory: false

@@ -1,0 +1,28 @@
+id: ab4cf949-ff13-4e69-874f-4050b1caecbb
+name: shapes-1
+type: shapes
+shapes-count: 3
+shapes:
+  - id: shape-1
+    location: TBD # the location of the shape image
+    order: 1 # the location of the tile in the deck
+    tile: 2 # the correct tile for the placement of the shape
+  - id: shape-2
+    location: TBD
+    order: 2
+    tile: 3
+  - id: shape-3
+    location: TBD
+    order: 3
+    tile: 1
+elements: # other elements in the game (e.g. buttons, etc.)
+  - deck
+  - button-next
+  - button-start
+parameters: # the parameters to be attached to user actions for this game
+  - name: shape-id # the id of the shape associated with the action
+    mandatory: false
+  - name: tile # the number of the tile from left to right associated with the action
+    mandatory: true
+  - name: element # the element associated with the action
+    mandatory: false

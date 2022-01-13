@@ -1,0 +1,527 @@
+id: ac2f758b-01da-46ee-989c-a7278c4c86d5
+name: maze-1
+type: maze
+timer:
+  active: false # is the maze on a timer
+  time: 180 # the time of the timer in seconds
+  is-extension-available: false # whether the time can be extended
+  extension-timing: 15 # the time remaining on the timer when option to extend is prompted
+  extension-time: 60 # the amount of time added to the timer via the extension
+size:
+  rows: 10
+  columns: 10
+entry: # start point of the ball in the maze
+  row: 1
+  column: 6
+exit: # destination point of the ball in the maze
+  row: 10
+  column: 5
+layout: # the layout of the cells in the maze - borders and whether there is a coin - left to right, top to buttom
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: false
+    coin: false
+  - borderL: false
+    borderR: true
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: false
+    borderB: false
+    coin: false
+  - borderL: false
+    borderR: true
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: true
+    borderT: false
+    borderB: false
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: false
+    borderR: false
+    borderT: true
+    borderB: false
+    coin: false
+  - borderL: false
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: false
+    borderR: true
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: false
+    borderB: true
+    coin: false
+  - borderL: false
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: false
+    borderR: true
+    borderT: true
+    borderB: false
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: false
+    borderB: true
+    coin: false
+  - borderL: false
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: false
+    borderR: false
+    borderT: false
+    borderB: true
+    coin: false
+  - borderL: false
+    borderR: true
+    borderT: true
+    borderB: false
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: false
+    borderB: true
+    coin: false
+  - borderL: false
+    borderR: false
+    borderT: true
+    borderB: false
+    coin: false
+  - borderL: false
+    borderR: true
+    borderT: true
+    borderB: false
+    coin: false
+  - borderL: true # STOPPED HERE
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+  - borderL: true
+    borderR: false
+    borderT: true
+    borderB: true
+    coin: false
+elements: # other elements in the game (e.g. buttons, etc.)
+parameters: # the parameters to be attached to user actions for this game
+  - name: is-with-ball # boolean, whether the action is with the ball or not
+    mandatory: true
+  - name: cell-id # the id of the cell in the maze associated with the action
+    mandatory: false
+  - name: element # the id of the element in the game associated with the action
+    mandatory: false

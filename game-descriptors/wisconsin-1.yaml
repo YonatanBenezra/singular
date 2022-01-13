@@ -1,0 +1,53 @@
+id: 0f9c928e-3cf6-486e-bef0-109b0da2a56d
+name: wisconsin-1
+type: wisconsin
+cards-count: 4
+cards:
+  - id: card-1
+    shape-location: "URI TBD" # location of the image of the shapes on the card
+    shape-count: 3 # the amount of shapes in the card
+    order: 1 # the order of the card in the deck
+    tile: 2 # the correct tile for the placement of the card
+  - id: card-1
+    shape-location: "URI TBD" # location of the image of the shapes on the card
+    shape-count: 3 # the amount of shapes in the card
+    order: 1 # the order of the card in the deck
+    tile: 2 # the correct tile for the placement of the card
+  - id: card-1
+    shape-location: "URI TBD" # location of the image of the shapes on the card
+    shape-count: 3 # the amount of shapes in the card
+    order: 1 # the order of the card in the deck
+    tile: 2 # the correct tile for the placement of the card
+  - id: card-1
+    shape-location: "URI TBD" # location of the image of the shapes on the card
+    shape-count: 3 # the amount of shapes in the card
+    order: 1 # the order of the card in the deck
+    tile: 2 # the correct tile for the placement of the card
+guidance-cards:
+  - id: card-1
+    shape-location: "URI TBD" # location of the image of the shapes on the card
+    shape-count: 3 # the amount of shapes in the card
+    order: 1 # the order of the card in the guidance deck
+  - id: card-1
+    shape-location: "URI TBD" # location of the image of the shapes on the card
+    shape-count: 3 # the amount of shapes in the card
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    shape-location: "URI TBD" # location of the image of the shapes on the card
+    shape-count: 3 # the amount of shapes in the card
+    order: 1 # the order of the card in the deck
+  - id: card-1
+    shape-location: "URI TBD" # location of the image of the shapes on the card
+    shape-count: 3 # the amount of shapes in the card
+    order: 1 # the order of the card in the deck
+elements: # other elements in the game (e.g. buttons, etc.)
+  - button-next
+parameters: # the parameters to be attached to user actions for this game
+  - name: card-id # the id of the card associated with the action
+    mandatory: false
+  - name: guidance-card-id # the id of the guidance card associated with the action
+    mandatory: false
+  - name: tile-id # the id of the tile associated with the action
+    mandatory: false
+  - name: element # the element associated with the actio
+    mandatory: false

@@ -1,0 +1,23 @@
+id: 3959c3bc-4313-4fa4-97e5-1069c37e3f62
+name: preferences-1
+type: preferences
+questions-count: 3
+questions:
+  - id: q-1
+    left-text: "autonamous work"
+    right-text: "collaborative work"
+    order: 1
+  - id: q-2
+    left-text: "work remotely"
+    right-text: "work at the office"
+    order: 2
+  - id: q-3
+    left-text: "explore new technologies"
+    right-text: "rely on proven technologies"
+    order: 3
+elements: # other elements in the game (e.g. buttons, etc.)
+parameters: # the parameters to be attached to user actions for this game
+  - name: question-id # the id of the current question
+    mandatory: true
+  - name: scale-position # the position of the ball on the scale
+    mandatory: true
