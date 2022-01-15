@@ -11,6 +11,7 @@ import HomePage from './containers/HomePage'
 import Rules from './containers/LogicalPuzzle/Rules'
 import LogicalPuzzle from './containers/LogicalPuzzle/LogicalPuzzle'
 
+import CardsGame from './containers/CardsGame/CardsGame'
 function App() {
 	return (
 		<AnimatePresence exitBeforeEnter>
@@ -31,6 +32,7 @@ function App() {
 										<Route path="/" element={<HomePage />} />
 										<Route path="/logical-puzzle/rules" element={<Rules />} />
 										<Route path="/logical-puzzle" element={<LogicalPuzzle />} />
+										<Route path="/cards-game" element={<CardsGame />} />
 									</Routes>
 								</div>
 							</div>

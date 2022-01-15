@@ -1,0 +1,134 @@
+{
+    "id": "a5b314e5-93cd-462b-84cb-c5ada09bc125",
+    "name": "cards-1",
+    "type": "cards",
+    "cards-count": 24,
+    "tiles-count": 6,
+    "cards": [
+      {
+        "id": "img1",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 1
+      },
+      {
+        "id": "img2",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 2
+      },
+      {
+        "id": "img3",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 3
+      },
+      {
+        "id": "img4",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 4
+      },
+      {
+        "id": "img5",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 5
+      },
+      {
+        "id": "img6",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 6
+      },
+      {
+        "id": "img7",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 7
+      },
+      {
+        "id": "img8",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 8
+      },
+      {
+        "id": "img9",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 9
+      },
+      {
+        "id": "img10",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 10
+      }
+    ],
+     "elements": [
+      {
+        "id": "button-done"
+      }
+    ],
+    "parameters": [
+      {
+        "name": "card-id",
+        "mandatory": false
+      },
+      {
+        "name": "element",
+        "mandatory": false
+      }
+    ]
+  }

@@ -4,7 +4,7 @@ type: cards
 cards-count: 24 # the amount of cards in the deck
 tiles-count: 6 # the maximum amount of tiles to allow for cards placement
 cards:
-  - id: card-1
+  - id: img1
     location: "URI TBD" # location of the card image
     colors: # the 2 dominant colors in the card
       - green
@@ -12,7 +12,7 @@ cards:
     type: animal # valid values: animal, human, abstract, landscape, object
     nature: positive # valid values are positive, negative, neutral
     order: 1 # the order of the card in the deck
-  - id: card-1
+  - id: img2
     location: "URI TBD" # location of the card image
     colors: # the 2 dominant colors in the card
       - green
