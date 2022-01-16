@@ -2,7 +2,7 @@
   text-align: center;
 }
 button {
-  margin: 1% 1% 0 1%;
+  margin: 1%;
   width: 80px;
   background-color: black;
   color: white;
@@ -43,30 +43,5 @@ button {
 }
 .carousel-title {
   text-align: center;
-  padding: 1rem 0 2rem 0;
-}
-
-.center {
-  animation: center-animate 0.9s ease-out infinite alternate;
-}
-
-.right {
-  animation: right-animate 0.3s ease-out infinite alternate;
-}
-
-@keyframes right-animate {
-  0% {
-    transform: translateX(20px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-@keyframes center-animate {
-  0% {
-    transform: scaleX(1.07) scaleY(1.07);
-  }
-  100% {
-    transform: scaleX(1) scaleY(1);
-  }
+  padding: 5rem;
 }
