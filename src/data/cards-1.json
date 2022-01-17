@@ -1,0 +1,276 @@
+{
+    "id": "a5b314e5-93cd-462b-84cb-c5ada09bc125",
+    "name": "cards-1",
+    "type": "cards",
+    "cardsCount": 20,
+    "tilesCount": 6,
+    "cards": [
+      {
+        "id": "img0",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 0,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img1",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 1,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img2",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 2,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img3",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 3,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img4",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 4,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img5",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 5,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img6",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 6,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img7",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 7,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img8",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 8,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img9",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 9,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img10",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 10,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 11,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 12,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 13,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 14,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 15,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 16,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 17,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 18,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 19,
+        "url": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "img11",
+        "location": "URI TBD",
+        "colors": [
+          "green",
+          "red"
+        ],
+        "type": "animal",
+        "nature": "positive",
+        "order": 20,
+        "url": "https://picsum.photos/200/300"
+      }
+    ],
+     "elements": [
+      {
+        "id": "button-done"
+      }
+    ],
+    "parameters": [
+      {
+        "name": "card-id",
+        "mandatory": false
+      },
+      {
+        "name": "element",
+        "mandatory": false
+      }
+    ]
+  }

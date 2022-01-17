@@ -10,7 +10,7 @@ const Rules = () => {
 			y: 0,
 		},
 		visible: {
-			textShadow: ["", "", "5px 1px 19px rgb(247, 145, 247)"],
+			textShadow: ["", "", "rgb(121 83 224 / 80%) 3px 3px 20px, rgb(121 83 224 / 80%) -2px 1px 30px, rgb(121 83 224) -2px 1px 30px"],
 			transition: {
 				delay: 1.5,
 				duration: 5,
@@ -23,7 +23,7 @@ const Rules = () => {
 			y: 0,
 		},
 		visible: {
-			textShadow: ["", "", "5px 1px 19px rgb(247, 145, 247)"],
+			textShadow: ["", "", "rgb(121 83 224 / 80%) 3px 3px 20px, rgb(121 83 224 / 80%) -2px 1px 30px, rgb(121 83 224) -2px 1px 30px"],
 			transition: {
 				delay: 2.5,
 				duration: 3,
@@ -97,26 +97,28 @@ const Rules = () => {
 	};
 
 	return (
-		<div className="maze_page">
-			<p className="main-text">
-				Complete the task{" "}
-				<motion.span variants={mainText} initial="hidden" animate="visible">
-					correctly
-				</motion.span>{" "}
-				and{" "}
-				<motion.span variants={mainText1} initial="hidden" animate="visible">
-					quickly
-				</motion.span>{" "}
-				as possible
-			</p>
-			<motion.p
-				variants={followText}
-				initial={{ opacity: 0 }}
-				animate={followText.visible}
-				className="main-text"
-			>
-				FOLLOW THE RULES
-			</motion.p>
+		<div className="rules-page">
+			<div className="rules-top-text">
+				<p className="main-text">
+					Complete the task{" "}
+					<motion.span variants={mainText} initial="hidden" animate="visible" transition={{ delay: 1 }}>
+						correctly
+					</motion.span>{" "}
+					and{" "}
+					<motion.span variants={mainText1} initial="hidden" animate="visible" transition={{ delay: 1 }}>
+						quickly
+					</motion.span>{" "}
+					as possible
+				</p>
+				<motion.p
+					variants={followText}
+					initial={{ opacity: 0 }}
+					animate={followText.visible}
+					className="main-text"
+				>
+					FOLLOW THE RULES
+				</motion.p>
+			</div>
 			<div className="donut-section">
 				<motion.img
 					variants={ballimages}
@@ -128,24 +130,34 @@ const Rules = () => {
 				<motion.p
 					variants={ballimages}
 					initial={{ x: -150, opacity: 0 }}
+					className="middle-dots"
 					animate={ballimages.visible}
 				>
-					- - - - - - - - -
+					{Array.apply(null, { length: 8 }).map((e, i) => (
+						<span key={i}>
+							{String.fromCharCode(183)}
+						</span>
+					))}
 				</motion.p>
 				<motion.p
 					variants={firstRule}
 					initial={{ opacity: 0 }}
 					animate={firstRule.visible}
+					className="rule-text"
 				>
 					Can never be close to
 				</motion.p>
 				<motion.p
 					variants={ballimages}
 					initial={{ x: 150, opacity: 0 }}
+					className="middle-dots"
 					animate={ballimages.visible}
 				>
-					- - - - - - - - -
-				</motion.p>
+					{Array.apply(null, { length: 8 }).map((e, i) => (
+						<span key={i}>
+							{String.fromCharCode(183)}
+						</span>
+					))}				</motion.p>
 				<motion.img
 					variants={ballimages}
 					initial={{ x: 100, opacity: 0 }}
@@ -165,24 +177,33 @@ const Rules = () => {
 				<motion.p
 					variants={donutimages}
 					initial={{ x: 600, opacity: 0 }}
+					className="middle-dots"
 					animate={donutimages.visible}
 				>
-					- - - - - - - - -
-				</motion.p>
+					{Array.apply(null, { length: 8 }).map((e, i) => (
+						<span key={i}>
+							{String.fromCharCode(183)}
+						</span>
+					))}				</motion.p>
 				<motion.p
 					variants={secondRule}
 					initial={{ opacity: 0 }}
 					animate={secondRule.visible}
+					className="rule-text"
 				>
 					Cannot be at the left end
 				</motion.p>
 				<motion.p
 					variants={donutimages}
 					initial={{ x: -600, opacity: 0 }}
+					className="middle-dots"
 					animate={donutimages.visible}
 				>
-					- - - - - - - - -
-				</motion.p>
+					{Array.apply(null, { length: 8 }).map((e, i) => (
+						<span key={i}>
+							{String.fromCharCode(183)}
+						</span>
+					))}				</motion.p>
 				<motion.img
 					variants={donutimages}
 					initial={{ x: -700, opacity: 0 }}
@@ -191,12 +212,10 @@ const Rules = () => {
 					alt={donut}
 				/>
 			</div>
-
 			<motion.button
 				variants={button}
 				initial={{ y: 80, opacity: 0 }}
 				animate={button.visible}
-				style={{ textDecoration: 'none', color: '#fff' }}
 			>
 				<Link to="/logical-puzzle">
 					OK, LET'S START
