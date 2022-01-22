@@ -15,7 +15,7 @@ const LogicalPuzzle = () => {
 				</DndProvider>
 
 				<div className="button_row" >
-					<Link to='/logical-puzzle/rules2' >
+					<Link to='/logical-puzzle/rules3' >
 						<button
 						//  className="active"
 						>

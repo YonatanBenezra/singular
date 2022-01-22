@@ -3,7 +3,6 @@ import Ball2 from '../../assets/balls/Ball2.svg'
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 import Game from './game'
-import { Link } from 'react-router-dom'
 
 const LogicalPuzzle = () => {
 	return (
@@ -15,13 +14,11 @@ const LogicalPuzzle = () => {
 				</DndProvider>
 
 				<div className="button_row" >
-					<Link to='/logical-puzzle/rules2' >
-						<button
-						//  className="active"
-						>
-							NEXT GAME
-						</button>
-					</Link>
+					<button
+					//  className="active"
+					>
+						NEXT GAME
+					</button>
 				</div>
 
 				<div className="rules_row">
@@ -32,7 +29,7 @@ const LogicalPuzzle = () => {
 
 					<div className="single_rule">
 						<img src={Ball2} alt="Ball2" />
-						<div className="text">Can not be at the left end</div>
+						<div className="text">Can never be close</div>
 					</div>
 				</div>
 			</div>

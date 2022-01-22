@@ -7,20 +7,17 @@ var React = require("react");
 var Coverflow = require("react-coverflow");
 
 const Carousel = (props) => {
-  const Images = imgs;
   const [chosenImages, setChosenImages] = useState(["", "", "", "", "", ""]);
-  const [chosenImage, setChosenImage] = useState(null);
-  const [images, setImages] = useState(Cards.cards);
-  const [selected, setSelected] = useState(0);
   const [activeImg, setActiveImg] = useState(Math.floor(Cards.cards.length / 2));
   const prev = () => {
-    console.log(activeImg);
     activeImg > 0 && setActiveImg(activeImg - 1);
   };
   const next = () => {
-    console.log(activeImg);
     activeImg < Cards.cards.length - 1 && setActiveImg(activeImg + 1);
   }
+
+  
+
   return (
     <div className="carousel">
       <Coverflow
@@ -47,45 +44,45 @@ const Carousel = (props) => {
       >
         {Cards.cards.map((img, index) => {
           return index == activeImg ? (
-              console.log(activeImg),
-              < div
-                role="menuitem"
-                tabIndex="0"
-                key={index}
-                className="middle"
-              >
-                <img
-                  className="middle"
-                  alt="title or description"
-                  style={{
-                    display: "block",
-                    width: "80px",
-                    height: "120px",
-                    backgroundSize: "contain",
-                    objectFit: "cover",
-                    outline: "5px solid #ffffff1f",
-                    borderRadius: "10px",
-                    marginLeft: "18px",
-                  }}
-                  src={img.url}
-                />
-              </div>
-              ) : (
+            console.log(activeImg),
+            < div
+              role="menuitem"
+              tabIndex="0"
+              key={index}
+              className="middle"
+            >
               <img
-                key={index}
-                alt={index}
+                className="middle"
+                alt="title or description"
                 style={{
                   display: "block",
-                  width: "120px",
-                  height: "200px",
+                  width: "80px",
+                  height: "120px",
                   backgroundSize: "contain",
                   objectFit: "cover",
-                  outline: "8px solid #ffffff1f",
+                  outline: "5px solid #ffffff1f",
                   borderRadius: "10px",
+                  marginLeft: "18px",
                 }}
                 src={img.url}
               />
-              )
+            </div>
+          ) : (
+            <img
+              key={index}
+              alt={index}
+              style={{
+                display: "block",
+                width: "120px",
+                height: "200px",
+                backgroundSize: "contain",
+                objectFit: "cover",
+                outline: "8px solid #ffffff1f",
+                borderRadius: "10px",
+              }}
+              src={img.url}
+            />
+          )
         })}
       </Coverflow >
       <div className="btns">

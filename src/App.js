@@ -7,9 +7,16 @@ import WelcomePage from './containers/WelcomePage'
 import LoginPage from './containers/LoginPage'
 import CreatePasswordPage from './containers/CreatePasswordPage'
 import HomePage from './containers/HomePage'
+import DndTest from './containers/dndTest/DndTest'
 
 import Rules from './containers/LogicalPuzzle/Rules'
+import Rules2 from './containers/LogicalPuzzle2/Rules'
+import Rules3 from './containers/LogicalPuzzle3/Rules'
+
 import LogicalPuzzle from './containers/LogicalPuzzle/LogicalPuzzle'
+import LogicalPuzzle2 from './containers/LogicalPuzzle2/LogicalPuzzle'
+import LogicalPuzzle3 from './containers/LogicalPuzzle3/LogicalPuzzle'
+
 
 import CardsGame from './containers/CardsGame/CardsGame'
 function App() {
@@ -31,8 +38,13 @@ function App() {
 										<Route path="/create-password" element={<CreatePasswordPage />} />
 										<Route path="/" element={<HomePage />} />
 										<Route path="/logical-puzzle/rules" element={<Rules />} />
+										<Route path="/logical-puzzle/rules2" element={<Rules2 />} />
+										<Route path="/logical-puzzle/rules3" element={<Rules3 />} />
 										<Route path="/logical-puzzle" element={<LogicalPuzzle />} />
+										<Route path="/logical-puzzle2" element={<LogicalPuzzle2 />} />
+										<Route path="/logical-puzzle3" element={<LogicalPuzzle3 />} />
 										<Route path="/cards-game" element={<CardsGame />} />
+										<Route path="/dnd-test" element={<DndTest />} />
 									</Routes>
 								</div>
 							</div>
