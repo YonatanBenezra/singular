@@ -19,6 +19,7 @@ import LogicalPuzzle3 from './containers/LogicalPuzzle3/LogicalPuzzle'
 
 
 import CardsGame from './containers/CardsGame/CardsGame'
+import EmotionGame from './containers/EmotionGame/EmotionGame'
 function App() {
 	return (
 		<AnimatePresence exitBeforeEnter>
@@ -44,7 +45,7 @@ function App() {
 										<Route path="/logical-puzzle2" element={<LogicalPuzzle2 />} />
 										<Route path="/logical-puzzle3" element={<LogicalPuzzle3 />} />
 										<Route path="/cards-game" element={<CardsGame />} />
-										<Route path="/dnd-test" element={<DndTest />} />
+										<Route path="/emotion-game" element={<EmotionGame />} />
 									</Routes>
 								</div>
 							</div>
