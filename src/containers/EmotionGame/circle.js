@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./style.scss";
-import { emojis, emojis0, emojis1, emojis2 } from "../data/emojis";
+import { emojis, emojis0, emojis1, emojis2 } from "../../data/emojis";
 import Progressbar from "./Progressbar";
-import first from "../assets/first.gif";
-import second from "../assets/second.gif";
+import first from "../../assets/first.gif";
+import second from "../../assets/second.gif";
 
 const Circle = () => {
   const [cases, setCases] = useState(0);
