@@ -1,0 +1,240 @@
+// A. THE MIXIN ++++++++++++++++++++++++++++++++++
+
+@mixin build-circle($degree, $radius) {
+  -webkit-transform: rotate($degree) translate($radius) rotate(-$degree);
+  -moz-transform: rotate($degree) translate($radius) rotate(-$degree);
+  -ms-transform: rotate($degree) translate($radius) rotate(-$degree);
+  -o-transform: rotate($degree) translate($radius) rotate(-$degree);
+  transform: rotate($degree) translate($radius) rotate(-$degree);
+}
+
+@mixin imageStyle {
+  width: 5rem;
+  height: 5rem;
+}
+
+@mixin wrapper-styles {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+}
+
+$size: 240px;
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  .img-div {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    transition: background-image 1s ease-in-out;
+  }
+}
+
+.wrapper {
+  @include wrapper-styles;
+}
+.ani {
+  @include wrapper-styles;
+  animation: linear circular 1s forwards;
+  -webkit-animation: linear circular 1s forwards;
+}
+
+.ani1 {
+  @include wrapper-styles;
+  animation: linear circular1 1s forwards;
+  -webkit-animation: linear circular1 1s forwards;
+}
+
+.ani2 {
+  @include wrapper-styles;
+  animation: linear circular2 1s forwards;
+  -webkit-animation: linear circular2 1s forwards;
+}
+
+.radius {
+  position: absolute;
+  top: 190px;
+  left: 190px;
+  right: 0;
+  .point {
+    display: block;
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    text-align: center;
+    margin: -1.8rem -1.8rem;
+    text-decoration: none;
+    cursor: pointer;
+    animation: linear rotations 1s forwards;
+    -webkit-animation: linear rotations 1s forwards;
+    .img {
+      @include imageStyle;
+    }
+  }
+}
+
+.ani-img {
+  @include imageStyle;
+  animation: linear images 1s forwards;
+  -webkit-animation: linear images 1s forwards;
+}
+
+.ani-img1 {
+  @include imageStyle;
+  animation: linear images1 1s forwards;
+  -webkit-animation: linear images1 1s forwards;
+}
+
+.ani-img2 {
+  @include imageStyle;
+  animation: linear images2 1s forwards;
+  -webkit-animation: linear images2 1s forwards;
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(0deg) scale(1);
+  }
+  100% {
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes images2 {
+  0% {
+    // -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(0deg) scale(1);
+  }
+  100% {
+    // -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(-134deg) scale(1);
+  }
+}
+
+@keyframes images1 {
+  0% {
+    // -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(0deg) scale(1);
+  }
+  100% {
+    // -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(-115deg) scale(1);
+  }
+}
+
+@keyframes images {
+  0% {
+    // -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(0deg) scale(1);
+  }
+  100% {
+    // -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(-115deg) scale(1);
+  }
+}
+
+@keyframes circular {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(113deg);
+  }
+}
+
+@keyframes circular1 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(113deg);
+  }
+}
+@keyframes circular2 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(135deg);
+  }
+}
+
+.deg15 {
+  @include build-circle(22.5deg, $size);
+}
+
+.deg14 {
+  @include build-circle(45deg, $size);
+}
+
+.deg13 {
+  @include build-circle(67.5deg, $size);
+}
+
+.deg12 {
+  @include build-circle(90deg, $size);
+}
+
+.deg11 {
+  @include build-circle(112.5deg, $size);
+}
+
+.deg10 {
+  @include build-circle(135deg, $size);
+}
+
+.deg9 {
+  @include build-circle(157.5deg, $size);
+}
+
+.deg8 {
+  @include build-circle(180deg, $size);
+}
+
+.deg7 {
+  @include build-circle(202.5deg, $size);
+}
+
+.deg6 {
+  @include build-circle(225deg, $size);
+}
+
+.deg5 {
+  @include build-circle(247.5deg, $size);
+}
+
+.deg4 {
+  @include build-circle(270deg, $size);
+}
+
+.deg3 {
+  @include build-circle(292.5deg, $size);
+}
+
+.deg2 {
+  @include build-circle(315deg, $size);
+}
+
+.deg1 {
+  @include build-circle(337.5deg, $size);
+}
+
+.deg0 {
+  @include build-circle(360deg, $size);
+}
